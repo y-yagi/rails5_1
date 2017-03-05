@@ -1,6 +1,6 @@
 ### [Yarn Support](https://github.com/rails/rails/pull/26836)
 
-* `bin/yarn` の中身はこんな感じ
+* bin/yarn の中身はこんな感じ
 
 ```ruby
 #!/usr/bin/env ruby
@@ -15,4 +15,4 @@ Dir.chdir(VENDOR_PATH) do
 end
 ```
 
-* 一時`node_modules`が`vendor`配下に置かれた時期もありましたが、最終的にはRails root配下に置かれるようになっています
+* 一時node_modulesがvendor配下に置かれた時期もありましたが、最終的にはRails root配下に置かれるようになっています
