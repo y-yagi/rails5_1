@@ -15,4 +15,4 @@ Dir.chdir(VENDOR_PATH) do
 end
 ```
 
-* 一時node_modulesがvendor配下に置かれた時期もありましたが、最終的にはRails root配下に置かれるようになっています
+* 一時node_modulesがvendor配下に置かれた時期もあったが、最終的にはRails root配下に置かれるようになっている
