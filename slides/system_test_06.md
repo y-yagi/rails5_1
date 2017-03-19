@@ -1,5 +1,6 @@
 ### [System tests](https://github.com/rails/rails/pull/26703)
 
-* なお、System testsとの絡みで、テスト実行時にスレッド間で同じDB connectionを使うように対応されている
-  * [Ensure test threads share a DB connection](https://github.com/rails/rails/pull/28083)
-* 今の所、上記処理が動作するのはfixturesを使用している時だけ
+* bin/rails test や bin/rake test ではデフォルトではSystem tests が実行されないのでちょっと注意が必要
+  * System testsを行いたい場合は、bin/rails test:system タスクや、test runnerにsystemディレクトリを指定する必要がある
+  * System testは遅いから通常のテストスイートと別buildにしたほうがよいから、とのこと
+  * https://github.com/rails/rails/pull/28286#issuecomment-284507788
