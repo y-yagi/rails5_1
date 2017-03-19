@@ -1,4 +1,4 @@
-### [Add :skip_pipeline option to several asset tag helpers](https://github.com/rails/rails/pull/26226)
+#### [Add :skip_pipeline option to several asset tag helpers](https://github.com/rails/rails/pull/26226)
 
 ```ruby
 asset_path("application.js")

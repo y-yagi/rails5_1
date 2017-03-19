@@ -1,4 +1,4 @@
-### [jQuery no longer a default dependency](https://github.com/rails/rails/pull/27113)
+#### [jQuery no longer a default dependency](https://github.com/rails/rails/pull/27113)
 
 * 元々Railsはview helper用のJSの実装にjQueryを使っていた([jquery-rails](https://github.com/rails/jquery-rails))
 * しかしもうjQueryを使う必要は無いだろう、という事で、jQueryを使わず、素のJSだけで実装するよう変更された

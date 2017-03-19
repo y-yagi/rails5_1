@@ -1,4 +1,4 @@
-### [Better logging of cached partial renders](https://github.com/rails/rails/pull/2582)
+#### [Better logging of cached partial renders](https://github.com/rails/rails/pull/2582)
 
 **before**
 

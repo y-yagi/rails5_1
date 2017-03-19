@@ -1,4 +1,4 @@
-### [Unification of form_for and form_tag into form_with](https://github.com/rails/rails/pull/26976)
+#### [Unification of form_for and form_tag into form_with](https://github.com/rails/rails/pull/26976)
 
 form_for 的な使い方
 

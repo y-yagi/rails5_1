@@ -1,4 +1,4 @@
-### [jQuery no longer a default dependency](https://github.com/rails/rails/pull/27113)
+#### [jQuery no longer a default dependency](https://github.com/rails/rails/pull/27113)
 
 * 因みにrails-ujsは色々議論された結果、Railsリポジトリの中にソースが含まれた
   * Action Viewの中にいる
