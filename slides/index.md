@@ -1,5 +1,5 @@
 
-## Let's Hanami 🌸
+## Here Comes a Rails 5.1
 
-**y-yagi@Ginza.rb 第46回**
+**y-yagi@Ginza.rb 第45回**
 
